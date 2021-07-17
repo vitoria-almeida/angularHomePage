@@ -1,0 +1,43 @@
+/* :root {
+    --fontRoboto: 'Roboto', sans-serif;
+    --lightGreen: #66CD00;
+    --darkGreenButton: #478E00;
+    --lightGreyText: #5c5c5c;
+    --darkgreytext- #555555;
+    --greenBestValue: #61C203;
+    --mediumGreyCard: #EEEEEE;
+    --lightGreyCard: #F8F8F8;
+} */
+
+* {
+    font-family: 'Roboto', 'sans-serif'
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+}
+
+section h3 {
+    color: #5c5c5cf8;
+}
+
+section fa-icon {
+    padding: 0 2px;
+    font-size: 22px;
+
+}
+
+section p {
+    color: #5c5c5cf8;
+}
+
+.section a {
+    text-decoration: none;
+}

@@ -1,0 +1,61 @@
+* {
+    font-family: 'Roboto', 'sans-serif'
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    background-color:#EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 0px 2px 2px rgba(192, 192, 192, 0.603), 0px -2px 2px rgba(192, 192, 192, 0.603);
+}
+
+
+#divMacImg {
+    width: 40%;
+    height: 300px;
+    background-image: url('../../assets/images/Macbook.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.divMacContent {
+    display: flex;
+    flex-direction: column;
+}
+.divMacInfo {
+    display: flex;
+}
+
+.greenCircleIcon {
+    width: 75px;
+    height: 45px;
+    background-color: #66CD00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMacText {
+    margin-left: 5%;
+    max-width: 500px;
+}
+
+.divMacInfo fa-icon {
+    font-size: 23px;
+    color: white;
+}
+.divMacInfo h4 {
+    color: #555555;
+    font-size: 20px;
+    
+}
+.divMacInfo p {
+    font-size: 13px;
+    color: #5c5c5c;
+}
+

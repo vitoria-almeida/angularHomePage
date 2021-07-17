@@ -1,0 +1,97 @@
+* {
+    font-family: 'Roboto', 'sans-serif'
+}
+
+section {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    padding-bottom: 5px;
+    color: #5c5c5c;
+    font-weight: 300;  
+}
+#border {
+    border-top: 2px solid #66CD00;
+    width: 120px;
+}
+
+#divCards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Card {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+    background-color: #F8F8F8;
+}
+
+.darkGreyCard {
+    background-color: #EEEEEE;
+    width: 100%;
+}
+    .Card h3 {
+        font-size: 15px;
+        color: #5c5c5cf8;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .Card span {
+        font-size: 30px;
+        color: #363636;
+    }
+    .Card h4 {
+        font-size: 18px;
+        text-align: center;
+        color: #5c5c5cf8;
+    }
+
+.Card h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5c5c5c;
+    background-color: #e2e2e2;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.Card p {
+    color: #5c5c5cf8;
+    padding: 2px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    width: 100%;
+    text-align: center;
+}
+
+.Card button {
+    color: white;
+    background-color: #66CD00;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.darkGreenCard {
+    background-color: #66CD00;
+    width: 100%;
+}
+
+.darkGreenCard h3,.darkGreenCard span, .darkGreenCard h4, .Card2 h5 {
+    color: white;
+}
+
+.Card2 h5 {
+    background-color: #60bb06;
+}
+

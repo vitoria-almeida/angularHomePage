@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --fontRoboto: 'Roboto', sans-serif;
+    --lightGreen: #66CD00;
+    --darkGreenButton: #478E00;
+    --darkGreyText: #88838A;
+    --greenBestValue: #61C203;
+    --mediumGreyCard: #EEEEEE;
+    --lightGreyCard: #F8F8F8;
+}
+

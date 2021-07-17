@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', 'sans-serif'
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #66CD00;
+}
+
+section h2 {
+    padding-bottom: 5px;
+    color: white;
+    font-weight: 300;  
+}
+
+#border {
+    width: 120px;
+    border-top: 2px solid white;
+}
+
+section p {
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-weight: 300;
+}

@@ -1,0 +1,52 @@
+* {
+    font-family: 'Roboto', 'sans-serif'
+}
+
+section {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    border-bottom: 2px solid #66CD00;
+    display: inline-block;
+    padding-bottom: 10px;
+    color: #5c5c5c;
+    font-weight: 300; 
+    width: 120px;  
+}
+
+#divCards {
+    display: flex;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card fa-icon {
+    font-size: 40px;
+}
+
+.Card h4 {
+    color: #424242;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Card p {
+    text-align: justify;
+    width: 80%;
+    color: #5c5c5c;   
+}
+
+.cardLightGrey {
+    background-color: #F8F8F8;
+}
